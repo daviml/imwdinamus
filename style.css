@@ -1,0 +1,71 @@
+body{
+    font-family: EB Garamond; 
+    background-image: linear-gradient(#0f4c81,#ed6663);
+}
+.h1h{
+    font-size: 2rem;
+}
+.h1h:hover{
+    transform: scale(1.1,1.1);
+}
+.img-logo{
+    width: 4%;
+    
+}
+
+.img-logo:hover{
+    transform: scale(1.1,1.1); 
+}
+.img-bomb{
+    width: 5%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    animation: infinite;
+    animation-name: img-b ;
+    animation-duration: 2s ;
+    
+}
+@keyframes img-b {
+    0%   { left:7%; top:9%;}
+    25%  { left:20%; top:40%;}
+    50%  { left:20%; top:30%;}
+    75%  { left:1%; top:40%;}
+    100% { left:7%; top:9%;}
+  }
+.img-bomb:hover{
+    
+}
+
+/* HEAD */
+#header{
+    
+}
+.div-head{
+    background-image: linear-gradient(#ffa372,rgb(131, 130, 130),#1b262c);
+    height: 90%;
+    margin: auto;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.74);
+}
+.navbar{
+    top: 8%;
+}
+
+/* MID */
+.div-mid{
+    background-image: linear-gradient(#d3865d,rgb(131, 130, 130),#314550);
+    height: 90%;
+    margin: auto;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.74);
+}
+
+/* FOOT */
+.div-foot{
+    height: 90%;
+    margin: auto;
+    width: 90%;
+}
