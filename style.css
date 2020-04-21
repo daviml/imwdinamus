@@ -13,6 +13,7 @@ body{
     transform: scale(1.1,1.1); 
 }
 .img-bomb{
+    z-index: 1000;
     width: 10%;
     position: absolute;
     top: 20%;
@@ -57,6 +58,7 @@ body{
 
 /* MID */
 .div-mid{
+    
     background-image: linear-gradient(#d3865d,rgb(131, 130, 130),#314550);
     height: 90%;
     margin: auto;
