@@ -24,15 +24,15 @@ body{
 }
 @keyframes img-b {
     0%   { left:7%; top:9%;}
-    10% { left:20%; top:50%;}
-    30% { left:50%; top:30%;}
-    40%  { left:20%; top:40%;}
-    50% { left:1%; top:40%;}
-    60%  { left:20%; top:30%;}
-    70% { left:7%; top:9%;}
-    80%  { left:1%; top:40%;}
-    90% { left:20%; top:40%;}
-    100% { left:7%; top:9%;}
+    10% { left:20%; top:50%; width: 15%;}
+    30% { left:50%; top:30%; width: 20%;}
+    40%  { left:20%; top:40%; width: 25%;}
+    50% { left:1%; top:40%; width: 30%;}
+    60%  { left:20%; top:30%; width: 35%;}
+    70% { left:7%; top:9%; width: 40%;}
+    80%  { left:1%; top:40%; width: 45%;}
+    90% { left:20%; top:40%; width: 50%;}
+    100% { left:7%; top:9%; width: 55%;}
   }
 .img-bomb:hover{
     
