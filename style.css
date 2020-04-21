@@ -19,14 +19,19 @@ body{
     left: 20%;
     animation: infinite;
     animation-name: img-b ;
-    animation-duration: 2s ;
+    animation-duration: 10s ;
     
 }
 @keyframes img-b {
     0%   { left:7%; top:9%;}
-    25%  { left:20%; top:40%;}
-    50%  { left:20%; top:30%;}
-    75%  { left:1%; top:40%;}
+    10% { left:20%; top:50%;}
+    30% { left:50%; top:30%;}
+    40%  { left:20%; top:40%;}
+    50% { left:1%; top:40%;}
+    60%  { left:20%; top:30%;}
+    70% { left:7%; top:9%;}
+    80%  { left:1%; top:40%;}
+    90% { left:20%; top:40%;}
     100% { left:7%; top:9%;}
   }
 .img-bomb:hover{
